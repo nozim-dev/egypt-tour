@@ -299,6 +299,13 @@
           .navbar_icon {
             display: block;
           }
+          .small_nav {
+            .small_nav_inline {
+              &::after {
+                display: none;
+              }
+            }
+          }
         }
       }
     }
